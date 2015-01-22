@@ -19,7 +19,7 @@ module.exports = function(urlMap, opts) {
     var item;
 
     // bail quickly if there's no map.
-    if (!urls) {
+    if (!urls || urls.length === 0) {
       return oldUrl;
     }
 
