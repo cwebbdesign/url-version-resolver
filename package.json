@@ -1,0 +1,30 @@
+{
+  "name": "url-version-resolver",
+  "version": "0.1.0",
+  "author": {
+    "name": "Chris Webb",
+    "email": "chris@christopherwdesign.com",
+    "url": "http://blog.mediumequalsmessage.com"
+  },
+  "description": "Given the JSON output from grunt-assets-versioning and the unversioned url, resolve to the versioned url",
+  "keywords": [
+    "grunt-assets-versioning", "url", "versioning", "browserify"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.8",
+    "gulp-esformatter": "^1.0.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-jsvalidate": "^1.0.0",
+    "gulp-mocha": "^1.0.0",
+    "jshint-stylish": "^0.4.0",
+    "mocha-unfunk-reporter": "^0.4.0",
+    "run-sequence": "^0.3.6"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:cwebbdesign/url-version-resolver.git",
+    "type": "git"
+  }
+}
